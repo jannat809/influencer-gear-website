@@ -1,5 +1,5 @@
 /* mobile device */
-@media screen  and (max-width:576px){
+@media screen  and (max-width:1200px){
     .nav-container, .nav-content , .banner-container,.logos{
         flex-direction: column;
         align-items: center;
@@ -7,5 +7,16 @@
         margin-right: 80px;
         margin-top: 50px;
     }
+   .camera-1{
+     width: 100%;
+   }
+   .main-camera{
+    width: 100%;
+   }
+   .collection-img-container{
+    grid-template-columns: repeat(1,1fr);
+   width: 100%;
+   padding-left: 60px;
+   }
    
 }
